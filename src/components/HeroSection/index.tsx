@@ -12,10 +12,6 @@ const HeroSection = () => {
           </h1>
           <p className="text-xl mb-8 text-white">
             cambio
-            Transformamos la experiencia del cliente en una herramienta
-            poderosa para tu negocio. Nada de suposiciones; con datos sólidos,
-            obtenidos directamente de tus clientes a través de investigaciones
-            que te dan insights de valor y 100% accionables.
           </p>
           <button className="bg-white text-purple-700 px-8 py-3 rounded-full font-bold text-lg hover:bg-opacity-90 transition duration-300">
             ¡Quiero saber más!
