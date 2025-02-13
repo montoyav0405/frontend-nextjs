@@ -11,6 +11,7 @@ const HeroSection = () => {
             <span className="text-6xl">tu cliente</span>
           </h1>
           <p className="text-xl mb-8 text-white">
+            cambio
             Transformamos la experiencia del cliente en una herramienta
             poderosa para tu negocio. Nada de suposiciones; con datos sólidos,
             obtenidos directamente de tus clientes a través de investigaciones
