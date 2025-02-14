@@ -22,12 +22,9 @@ const Testimonials = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Marcas que ya se subieron a esta ola… y están surfeando resultados
+        <h2 className="text-3xl font-bold mb-8">
+          Empresas que apostaron por la experiencia y descubrieron lo que realmente valoran sus clientes.
         </h2>
-        <p className="mb-12">
-          Nos encanta ver cómo nuestros clientes toman nuestros insights y estrategias y los convierten en éxitos reales y medibles. Pasaron de estar en la carrera por sobrevivir a ser las que marcan el ritmo.
-        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonialsData.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">

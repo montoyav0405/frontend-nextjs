@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className={`${isMenuOpen ? 'block' : 'hidden'} lg:flex lg:items-center w-full lg:w-auto mt-4 lg:mt-0`}>
           <div className="flex flex-col lg:flex-row lg:space-x-6">
             <Link href="/" className="text-gray-700 hover:text-gray-900 py-2 lg:py-0" onClick={closeMenu}>
-              Home
+              Inicio
             </Link>
             <Link href="/services" className="text-gray-700 hover:text-gray-900 py-2 lg:py-0" onClick={closeMenu}>
               Soluciones

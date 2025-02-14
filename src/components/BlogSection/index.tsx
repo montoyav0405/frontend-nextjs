@@ -27,15 +27,11 @@ const BlogSection: React.FC = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-purple-100">
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-bold text-center mb-8">
-          Tips, tendencias y todo lo que necesitas pa&apos; ir siempre un paso adelante.
+        <h1 className="text-3xl font-bold text-center mb-10">
+          Tips, tendencias y todo lo que necesitas para impulsar el crecimiento de tu marca.
         </h1>
-        <p className="text-center mb-8 max-w-3xl mx-auto">
-          No hay lugar para quedarse atrás. Acá compartimos las últimas tendencias, tips y estrategias en experiencia del cliente e investigación de mercados.
-          Encontrá todo lo necesario para que tu marca siga innovando y rompiendo moldes.
-        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {currentBlogs.map((blog: BlogPost) => (
             <BlogSummary key={blog.slug} {...blog} />

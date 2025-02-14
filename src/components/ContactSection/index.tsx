@@ -12,17 +12,12 @@ const ContactSection: React.FC = () => {
                 }}
             ></div>
             <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
-            <div className="container mx-auto px-4 relative z-20">
+            <div className="container mx-auto px-100 relative z-20">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                    Hablemos, que juntos hacemos que las cosas pasen, ¡y en grande!
+                    Hablemos, juntos hacemos que la cosas pasen, ¡y en grande!
                 </h1>
-                <p className="text-lg md:text-xl mb-4">
-                    Con nuestro enfoque innovador y basado en datos, te ayudamos a
-                    identificar oportunidades y mejorar cada interacción con tus clientes.
-                </p>
-                <p className="text-lg md:text-xl">
-                    Imagina lo que podrías lograr con insights frescos y estrategias
-                    personalizadas que te lleven a un nuevo nivel de éxito.
+                <p className="text-lg md:text-x1 mb-4">
+                    El éxito de tu marca comienza conociendo, entendiendo  y sorprendiendo a tus clientes.
                 </p>
             </div>
         </section>

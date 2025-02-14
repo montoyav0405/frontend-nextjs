@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 p-4 text-center text-white">
-      <p>© 2023 Customer 360. All rights reserved.</p>
+    <footer className="bg-purple-800 p-4 text-center text-white">
+      <p>© 2025 Customer Experience 360. All rights reserved.</p>
     </footer>
   );
 };
